@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueLightGames.Web", "BlueL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueLightGames.Domain", "BlueLightGames.Domain\BlueLightGames.Domain.csproj", "{09321DD2-8DEC-4D82-806E-7586122189F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueLightGames.Shared", "BlueLightGames.Shared\BlueLightGames.Shared.csproj", "{BCC573AF-C8A3-4220-8B2F-2295EAE0E6FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{09321DD2-8DEC-4D82-806E-7586122189F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09321DD2-8DEC-4D82-806E-7586122189F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09321DD2-8DEC-4D82-806E-7586122189F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC573AF-C8A3-4220-8B2F-2295EAE0E6FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC573AF-C8A3-4220-8B2F-2295EAE0E6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC573AF-C8A3-4220-8B2F-2295EAE0E6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC573AF-C8A3-4220-8B2F-2295EAE0E6FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

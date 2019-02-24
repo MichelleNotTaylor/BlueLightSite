@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using BlueLightGames.Shared.Enums;
+using BlueLightGames.Shared.Orchestrators;
+using BlueLightGames.Web.Models;
 using System.Web.Mvc;
 
 namespace BlueLightGames.Web.Controllers
@@ -11,7 +10,17 @@ namespace BlueLightGames.Web.Controllers
         // GET: About
         public ActionResult About()
         {
-            return View();
+            var projectMemberOrchestrator = new ProjectMemberOrchestrator();
+
+            var michelle = new MemberModel
+            {
+                FirstName = "Michelle",
+                LastName = "Taylor",
+                Email = "mmtaylor3@dmacc.edu",
+                Role = RoleEnum.Developer
+            };
+
+            return View(michelle);
         }
     }
 }
