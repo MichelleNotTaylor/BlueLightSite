@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using BlueLightGames.Shared.Orchestrators;
+using BlueLightGames.Web.Models;
 using System.Web.Mvc;
 
 namespace BlueLightGames.Web.Controllers
@@ -15,9 +13,13 @@ namespace BlueLightGames.Web.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            var projectMemberOrchestrator = new ProjectMemberOrchestrator();
+            var projectMemberModel = new MemberModel
+            {
+                ProjectMembers = projectMemberOrchestrator.GetProjectMembers()
+            };
 
-            return View();
+            return View(projectMemberModel);
         }
 
         public ActionResult Contact()

@@ -9,6 +9,11 @@ namespace BlueLightGames.Web.Controllers
     public class GameController : Controller
     {
         // GET: Game
+        public ActionResult Games()
+        {
+            return View();
+        }
+
         public ActionResult GoNellie()
         {
             return View();
