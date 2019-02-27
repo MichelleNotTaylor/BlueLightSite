@@ -24,13 +24,14 @@
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Games", "Games", "Game")</li>
+                    <li class="nav-item dropdown">@Html.ActionLink("Games", "Games", "Game")</li>
                     <li>@Html.ActionLink("Go Nellie", "GoNellie", "Game")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
         </div>
     </div>
+    <center><p style="font-family:'Franklin Gothic'; font-size:600%; color:#1E90FF"> BLUELIGHT</p></center>
     <div class="container body-content">
         @RenderBody()
         <hr />
