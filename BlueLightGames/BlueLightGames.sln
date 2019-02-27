@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueLightGames.Web", "BlueL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueLightGames.Domain", "BlueLightGames.Domain\BlueLightGames.Domain.csproj", "{AB623763-45EB-417B-AECB-E6368C235D91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueLightGames.Shared", "BlueLightGames.Shared\BlueLightGames.Shared.csproj", "{F938CDD2-9C94-4EC8-AF06-409E64442A5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AB623763-45EB-417B-AECB-E6368C235D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB623763-45EB-417B-AECB-E6368C235D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB623763-45EB-417B-AECB-E6368C235D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F938CDD2-9C94-4EC8-AF06-409E64442A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F938CDD2-9C94-4EC8-AF06-409E64442A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F938CDD2-9C94-4EC8-AF06-409E64442A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F938CDD2-9C94-4EC8-AF06-409E64442A5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
