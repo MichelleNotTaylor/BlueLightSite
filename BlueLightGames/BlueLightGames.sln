@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueLightGames.Web", "BlueLightGames.Web\BlueLightGames.Web.csproj", "{968A3616-A6AE-423A-B318-56C895BDFCD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueLightGames.Domain", "BlueLightGames.Domain\BlueLightGames.Domain.csproj", "{AB623763-45EB-417B-AECB-E6368C235D91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{968A3616-A6AE-423A-B318-56C895BDFCD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968A3616-A6AE-423A-B318-56C895BDFCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968A3616-A6AE-423A-B318-56C895BDFCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968A3616-A6AE-423A-B318-56C895BDFCD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB623763-45EB-417B-AECB-E6368C235D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB623763-45EB-417B-AECB-E6368C235D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB623763-45EB-417B-AECB-E6368C235D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB623763-45EB-417B-AECB-E6368C235D91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3811C8F-5B89-4769-886C-17E1BAF2E46D}
+	EndGlobalSection
+EndGlobal
