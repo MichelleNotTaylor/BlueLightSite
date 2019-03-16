@@ -10,10 +10,10 @@ using System.Web.Http;
 namespace BlueLightGames.Web.Api
 {
     [Route("api/v1/people")]
+
     public class PersonApiController : ApiController
     {
         private readonly PersonOrchestrator _personOrchestrator;
-
         public PersonApiController()
         {
             _personOrchestrator = new PersonOrchestrator();

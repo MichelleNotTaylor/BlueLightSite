@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AB623763-45EB-417B-AECB-E6368C235D91}</ProjectGuid>
+    <ProjectGuid>{D6F3E5F5-0144-43A2-A5FF-94273712B679}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BlueLightGames.Domain</RootNamespace>
@@ -51,9 +51,9 @@
     <Compile Include="BlueLightGamesContext.cs" />
     <Compile Include="Entities\HighScore.cs" />
     <Compile Include="Entities\Person.cs" />
-    <Compile Include="Migrations\201902271407035_InitialDatabaseCreation.cs" />
-    <Compile Include="Migrations\201902271407035_InitialDatabaseCreation.Designer.cs">
-      <DependentUpon>201902271407035_InitialDatabaseCreation.cs</DependentUpon>
+    <Compile Include="Migrations\201903120906453_InitialDatabaseCreation.cs" />
+    <Compile Include="Migrations\201903120906453_InitialDatabaseCreation.Designer.cs">
+      <DependentUpon>201903120906453_InitialDatabaseCreation.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -63,8 +63,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201902271407035_InitialDatabaseCreation.resx">
-      <DependentUpon>201902271407035_InitialDatabaseCreation.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201903120906453_InitialDatabaseCreation.resx">
+      <DependentUpon>201903120906453_InitialDatabaseCreation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,27 +1,6 @@
-﻿@model BlueLightGames.Web.Models.MemberModel
-
-@{
+﻿@{
     ViewBag.Title = "About";
 }
+<h2>@ViewBag.Title</h2>
 
-
-<div class="container">
-    <h2>The BlueLight Team</h2><hr />
-    <div>
-        <h4>
-            @Html.DisplayFor(m => m.FirstName)
-            @Html.DisplayFor(m => m.LastName)
-        </h4>
-        <em>
-                @Html.DisplayFor(m => m.Role)
-                <br />
-                @Html.DisplayFor(m => m.Email)
-            </em>
-        <br /><br />
-    </div>
-    <p>
-        @Html.DisplayFor(m => m.FirstName) is the sole team member of BlueLight Games. She attended DMACC where she received her Business Information Systems
-        degree with an object-oriented concentration. She enjoys knitting, playing video games, and spending time with her
-        boyfriend, Paul, and elderly cat, Bruce.
-    </p>
-</div>
+<p>Use this area to provide additional information.</p>

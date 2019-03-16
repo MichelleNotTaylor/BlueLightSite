@@ -1,10 +1,7 @@
 ﻿using BlueLightGames.Domain;
 using BlueLightGames.Shared.ViewModels;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BlueLightGames.Shared.Orchestrators
 {
@@ -19,12 +16,12 @@ namespace BlueLightGames.Shared.Orchestrators
 
         public List<HighScoreViewModel> GetAllHighScores()
         {
-            var highscores = _blueLightGamesContext.HighScores.Select(x => new HighScoreViewModel
+            var highscores = _blueLightGamesContext.HighScores.Select(h => new HighScoreViewModel
             {
-                HighScoreId = x.HighScoreId,
-                PersonId = x.PersonId,
-                Score = x.Score,
-                DateAttained = x.DateAttained
+                HighScoreId = h.HighScoreId,
+                PersonId = h.PersonId,
+                Score = h.Score,
+                DateAttained = h.DateAttained
             }).ToList();
 
             return highscores;

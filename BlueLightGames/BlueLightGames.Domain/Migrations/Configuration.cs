@@ -2,9 +2,7 @@ namespace BlueLightGames.Domain.Migrations
 {
     using BlueLightGames.Domain.Entities;
     using System;
-    using System.Data.Entity;
     using System.Data.Entity.Migrations;
-    using System.Linq;
 
     internal sealed class Configuration : DbMigrationsConfiguration<BlueLightGames.Domain.BlueLightGamesContext>
     {
@@ -19,48 +17,48 @@ namespace BlueLightGames.Domain.Migrations
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
-            context.People.AddOrUpdate(new Person
+            context.People.AddOrUpdate(new Person()
             {
-                PersonId = Guid.Parse("568f1750-d791-44b2-992a-1e3bf7fe61bf"),
+                PersonId = Guid.Parse("c0dcc7d1-787d-4f27-8c4d-919f949a7486"),
                 FirstName = "Michelle",
                 LastName = "Taylor",
-                DateCreated = System.DateTime.Now,
+                DateCreated = DateTime.Now,
                 Email = "mmtaylor3@dmacc.edu"
             });
-            context.HighScores.AddOrUpdate(new HighScore
+            context.HighScores.AddOrUpdate(new HighScore()
             {
-                HighScoreId = Guid.Parse("b8da7af7-14da-4a21-bfa1-52cd0d2f4b8b"),
-                PersonId = Guid.Parse("568f1750-d791-44b2-992a-1e3bf7fe61bf"),
-                Score = 100f,
-                DateAttained = System.DateTime.Now
+                HighScoreId = Guid.Parse("0d5ea68c-baa1-420f-866a-ed04d68e3f6f"),
+                PersonId = Guid.Parse("c0dcc7d1-787d-4f27-8c4d-919f949a7486"),
+                Score = 1000,
+                DateAttained = DateTime.Now
             });
-            context.HighScores.AddOrUpdate(new HighScore
+            context.HighScores.AddOrUpdate(new HighScore()
             {
-                HighScoreId = Guid.Parse("a0a7b50c-3b83-46ed-8cb8-70eeabcf450c"),
-                PersonId = Guid.Parse("568f1750-d791-44b2-992a-1e3bf7fe61bf"),
-                Score = 200f,
-                DateAttained = System.DateTime.Now
+                HighScoreId = Guid.Parse("2ea3eeb4-7937-41a2-b26e-56a94d216589"),
+                PersonId = Guid.Parse("c0dcc7d1-787d-4f27-8c4d-919f949a7486"),
+                Score = 2000,
+                DateAttained = DateTime.Now
             });
-            context.HighScores.AddOrUpdate(new HighScore
+            context.HighScores.AddOrUpdate(new HighScore()
             {
-                HighScoreId = Guid.Parse("0156c7b2-58b0-44be-9c07-bb00a32ac1a8"),
-                PersonId = Guid.Parse("568f1750-d791-44b2-992a-1e3bf7fe61bf"),
-                Score = 300f,
-                DateAttained = System.DateTime.Now
+                HighScoreId = Guid.Parse("10aa172a-c592-4181-9fe1-f806e03ef414"),
+                PersonId = Guid.Parse("c0dcc7d1-787d-4f27-8c4d-919f949a7486"),
+                Score = 3000,
+                DateAttained = DateTime.Now
             });
-            context.HighScores.AddOrUpdate(new HighScore
+            context.HighScores.AddOrUpdate(new HighScore()
             {
-                HighScoreId = Guid.Parse("55e6e289-5481-4f63-a778-72ad40b1c33a"),
-                PersonId = Guid.Parse("568f1750-d791-44b2-992a-1e3bf7fe61bf"),
-                Score = 400f,
-                DateAttained = System.DateTime.Now
+                HighScoreId = Guid.Parse("0095dc6a-b2ab-47d7-be0a-1fe332a1b345"),
+                PersonId = Guid.Parse("c0dcc7d1-787d-4f27-8c4d-919f949a7486"),
+                Score = 4000,
+                DateAttained = DateTime.Now
             });
-            context.HighScores.AddOrUpdate(new HighScore
+            context.HighScores.AddOrUpdate(new HighScore()
             {
-                HighScoreId = Guid.Parse("f3531282-230f-408e-a0df-3b2ae3afc3c3"),
-                PersonId = Guid.Parse("568f1750-d791-44b2-992a-1e3bf7fe61bf"),
-                Score = 500f,
-                DateAttained = System.DateTime.Now
+                HighScoreId = Guid.Parse("88b2eaae-154d-4270-9084-811b5da040c9"),
+                PersonId = Guid.Parse("c0dcc7d1-787d-4f27-8c4d-919f949a7486"),
+                Score = 5000,
+                DateAttained = DateTime.Now
             });
         }
     }

@@ -16,11 +16,13 @@ namespace BlueLightGames.Shared.Orchestrators
 
         public List<PersonViewModel> GetAllPeople()
         {
-            var people = _blueLightGamesContext.People.Select(x => new PersonViewModel
+            var people = _blueLightGamesContext.People.Select(p => new PersonViewModel
             {
-                FirstName = x.FirstName,
-                LastName = x.LastName,
-                Email = x.Email
+                PersonId = p.PersonId,
+                FirstName =  p.FirstName,
+                LastName = p.LastName,
+                DateCreated = p.DateCreated,
+                Email = p.Email
             }).ToList();
 
             return people;

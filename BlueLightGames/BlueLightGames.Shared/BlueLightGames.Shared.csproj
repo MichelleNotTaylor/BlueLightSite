@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F938CDD2-9C94-4EC8-AF06-409E64442A5B}</ProjectGuid>
+    <ProjectGuid>{D8459C99-D792-4BB5-B675-33FA4DF1F790}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BlueLightGames.Shared</RootNamespace>
@@ -48,26 +48,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enums\RoleEnum.cs" />
     <Compile Include="Orchestrators\HighScoreOrchestrator.cs" />
-    <Compile Include="Orchestrators\Interfaces\IProjectMemberOrchestrator.cs" />
     <Compile Include="Orchestrators\PersonOrchestrator.cs" />
-    <Compile Include="Orchestrators\ProjectMemberOrchestrator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\HighScoreViewModel.cs" />
     <Compile Include="ViewModels\PersonViewModel.cs" />
-    <Compile Include="ViewModels\ProjectMemberViewModel.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BlueLightGames.Domain\BlueLightGames.Domain.csproj">
-      <Project>{ab623763-45eb-417b-aecb-e6368c235d91}</Project>
-      <Name>BlueLightGames.Domain</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\BlueLightGames.Domain\BlueLightGames.Domain.csproj">
+      <Project>{d6f3e5f5-0144-43a2-a5ff-94273712b679}</Project>
+      <Name>BlueLightGames.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
