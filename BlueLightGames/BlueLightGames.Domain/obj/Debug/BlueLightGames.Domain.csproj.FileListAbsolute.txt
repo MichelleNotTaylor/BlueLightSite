@@ -1,0 +1,14 @@
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Domain\bin\Debug\BlueLightGames.Domain.dll.config
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Domain\bin\Debug\BlueLightGames.Domain.dll
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Domain\bin\Debug\BlueLightGames.Domain.pdb
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Domain\bin\Debug\EntityFramework.dll
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Domain\bin\Debug\EntityFramework.xml
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Domain\obj\Debug\BlueLightGames.Domain.csprojAssemblyReference.cache
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Domain\obj\Debug\BlueLightGames.Domain.csproj.CoreCompileInputs.cache
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Domain\obj\Debug\BlueLightGames.Domain.csproj.CopyComplete
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Domain\obj\Debug\BlueLightGames.Domain.dll
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Domain\obj\Debug\BlueLightGames.Domain.pdb
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Domain\obj\Debug\BlueLightGames.Domain.Migrations.InitialDatabaseCreation.resources
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Domain\obj\Debug\BlueLightGames.Domain.csproj.GenerateResource.cache

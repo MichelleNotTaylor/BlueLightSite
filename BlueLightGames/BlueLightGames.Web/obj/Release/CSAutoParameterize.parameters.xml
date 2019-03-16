@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="BlueLightGamesContext-Web.config Connection String" description="BlueLightGamesContext Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:bluelight-games.database.windows.net,1433;Initial Catalog=BlueLightGames;Persist Security Info=False;&#xD;&#xA;           User ID=mmtaylor3;Password=BigQ46po;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\shell\\Documents\\School\\C\#\\Project\ Site\\BlueLightGames\\BlueLightGames\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BlueLightGamesContext']/@connectionString" />
+  </parameter>
+</parameters>

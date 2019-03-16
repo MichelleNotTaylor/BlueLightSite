@@ -1,0 +1,15 @@
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Shared\obj\Debug\BlueLightGames.Shared.csprojAssemblyReference.cache
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Shared\obj\Debug\BlueLightGames.Shared.csproj.CoreCompileInputs.cache
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Shared\bin\Debug\BlueLightGames.Shared.dll.config
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Shared\bin\Debug\BlueLightGames.Shared.dll
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Shared\bin\Debug\BlueLightGames.Shared.pdb
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Shared\bin\Debug\BlueLightGames.Domain.dll
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Shared\bin\Debug\EntityFramework.dll
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Shared\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Shared\bin\Debug\BlueLightGames.Domain.pdb
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Shared\bin\Debug\BlueLightGames.Domain.dll.config
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Shared\bin\Debug\EntityFramework.xml
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Shared\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Shared\obj\Debug\BlueLightGames.Shared.csproj.CopyComplete
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Shared\obj\Debug\BlueLightGames.Shared.dll
+C:\Users\shell\Documents\School\C#\Project Site\BlueLightGames\BlueLightGames.Shared\obj\Debug\BlueLightGames.Shared.pdb
