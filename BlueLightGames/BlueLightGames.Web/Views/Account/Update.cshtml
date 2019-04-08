@@ -1,0 +1,51 @@
+﻿@model BlueLightGames.Web.Models.UpdatePersonModel
+<script src="~/Scripts/BlueLight/person.js" type="text/javascript"></script>
+@{
+    ViewBag.Title = "Update Profile";
+}
+
+<h2>Update Profile</h2>
+
+<div class="row">
+    <div class="col-md-3">
+        <label>Search Name</label>
+    </div>
+    <div class="col-md-7">
+        <input id="searchString" type="text" class="form-control" />
+    </div>
+    <div class="col-md-2">
+        <button class="btn btn-dark" onclick="searchPerson()">Search</button>
+    </div>
+</div>
+<hr />
+<div id="successMessage" class="hidden alert alert-success">
+    Successfully Updated
+</div>
+<div id="errorMessage" class="hidden alert alert-danger">
+    Error Occurred!
+</div>
+<input id="firstName" type="hidden" />
+<div class="col-md-12">
+    <div class="col-md-6">
+        <label>First Name:</label>
+    </div>
+    <div class="col-md-6">
+        <input id="firstName" type="text" class="form-control"/>
+    </div>
+</div>
+<div class="col-md-12">
+    <div class="col-md-6">
+        <label>Last Name:</label>
+    </div>
+    <div class="col-md-6">
+        <input id="lastName" type="text" class="form-control" />
+    </div>
+</div>
+<div class="col-md-12">
+    <div class="col-md-6">
+        <label>Email:</label>
+    </div>
+    <div class="col-md-6">
+        <input id="email" type="text" class="form-control" />
+    </div>
+</div>
